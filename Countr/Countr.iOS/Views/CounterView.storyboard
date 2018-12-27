@@ -22,6 +22,7 @@
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
+                                <accessibility key="accessibilityConfiguration" identifier="new_counter_name"/>
                             </textField>
                         </subviews>
                         <constraints>

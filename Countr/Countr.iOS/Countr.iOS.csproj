@@ -95,6 +95,9 @@
     <PackageReference Include="MvvmCross">
       <Version>5.2.1</Version>
     </PackageReference>
+    <PackageReference Include="Xamarin.TestCloud.Agent">
+      <Version>0.21.7</Version>
+    </PackageReference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="DebugTrace.cs" />

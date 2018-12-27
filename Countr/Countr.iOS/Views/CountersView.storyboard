@@ -25,16 +25,19 @@
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="counter_name"/>
                                         </label>
                                         <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="640" translatesAutoresizingMaskIntoConstraints="NO">
                                             <rect key="frame" x="370" y="10" width="24" height="24"/>
                                             <state key="normal" image="Plus"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="add_image"/>
                                         </button>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="641" translatesAutoresizingMaskIntoConstraints="NO">
                                             <rect key="frame" x="308" y="11.5" width="42" height="20.5"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <nil key="textColor"/>
                                             <nil key="highlightedColor"/>
+                                            <accessibility key="accessibilityConfiguration" identifier="counter_count"/>
                                         </label>
                                     </subviews>
                                     <constraints>

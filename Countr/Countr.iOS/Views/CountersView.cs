@@ -18,6 +18,7 @@ namespace Countr.iOS.Views
             base.ViewDidLoad();
 
             var button = new UIBarButtonItem(UIBarButtonSystemItem.Add);
+            button.AccessibilityIdentifier = "add_counter_button";
             NavigationItem.SetRightBarButtonItem(button, false);
 
             var source = new CountersTableViewSource(TableView);
@@ -27,9 +28,6 @@ namespace Countr.iOS.Views
             set.Bind(source).To(vm => vm.Counters);
             set.Bind(button).To(vm => vm.ShowAddNewCounterCommand);
             set.Apply();
-
-
-
         }
 
         public override void DidReceiveMemoryWarning()

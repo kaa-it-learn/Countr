@@ -17,6 +17,10 @@ namespace Countr.iOS
 
         public override bool FinishedLaunching(UIApplication app, NSDictionary options)
         {
+#if DEBUG
+            Xamarin.Calabash.Start();
+#endif
+
             UINavigationBar.Appearance.BarTintColor = UIColor.Orange;
             UINavigationBar.Appearance.TintColor = UIColor.DarkGray;
             var attrs = new NSDictionary(UIStringAttributeKey.ForegroundColor,
