@@ -26,6 +26,25 @@ namespace Countr.Droid
 		
 		public static void UpdateIdValues()
 		{
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast = global::Countr.Droid.Resource.String.appcenter_distribute_dialog_actioned_on_disabled_toast;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_download_progress_number_format = global::Countr.Droid.Resource.String.appcenter_distribute_download_progress_number_format;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_downloading_mandatory_update = global::Countr.Droid.Resource.String.appcenter_distribute_downloading_mandatory_update;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install = global::Countr.Droid.Resource.String.appcenter_distribute_install;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install_ready_message = global::Countr.Droid.Resource.String.appcenter_distribute_install_ready_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_install_ready_title = global::Countr.Droid.Resource.String.appcenter_distribute_install_ready_title;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_notification_category = global::Countr.Droid.Resource.String.appcenter_distribute_notification_category;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_unknown_sources_dialog_message = global::Countr.Droid.Resource.String.appcenter_distribute_unknown_sources_dialog_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_unknown_sources_dialog_settings = global::Countr.Droid.Resource.String.appcenter_distribute_unknown_sources_dialog_settings;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_download = global::Countr.Droid.Resource.String.appcenter_distribute_update_dialog_download;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_message_mandatory = global::Countr.Droid.Resource.String.appcenter_distribute_update_dialog_message_mandatory;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_message_optional = global::Countr.Droid.Resource.String.appcenter_distribute_update_dialog_message_optional;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_postpone = global::Countr.Droid.Resource.String.appcenter_distribute_update_dialog_postpone;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_title = global::Countr.Droid.Resource.String.appcenter_distribute_update_dialog_title;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_dialog_view_release_notes = global::Countr.Droid.Resource.String.appcenter_distribute_update_dialog_view_release_notes;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_ignore = global::Countr.Droid.Resource.String.appcenter_distribute_update_failed_dialog_ignore;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_message = global::Countr.Droid.Resource.String.appcenter_distribute_update_failed_dialog_message;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_reinstall = global::Countr.Droid.Resource.String.appcenter_distribute_update_failed_dialog_reinstall;
+			global::Microsoft.AppCenter.Distribute.Resource.String.appcenter_distribute_update_failed_dialog_title = global::Countr.Droid.Resource.String.appcenter_distribute_update_failed_dialog_title;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxBind = global::Countr.Droid.Resource.Attribute.MvxBind;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxDropDownItemTemplate = global::Countr.Droid.Resource.Attribute.MvxDropDownItemTemplate;
 			global::MvvmCross.Binding.Droid.Resource.Attribute.MvxGroupItemTemplate = global::Countr.Droid.Resource.Attribute.MvxGroupItemTemplate;
@@ -5135,8 +5154,8 @@ namespace Countr.Droid
 			// aapt resource value: 0x7f0a0029
 			public const int Hello = 2131361833;
 			
-			// aapt resource value: 0x7f0a002b
-			public const int VersionName = 2131361835;
+			// aapt resource value: 0x7f0a003e
+			public const int VersionName = 2131361854;
 			
 			// aapt resource value: 0x7f0a0000
 			public const int abc_action_bar_home_description = 2131361792;
@@ -5233,6 +5252,63 @@ namespace Countr.Droid
 			
 			// aapt resource value: 0x7f0a0021
 			public const int appbar_scrolling_view_behavior = 2131361825;
+			
+			// aapt resource value: 0x7f0a002b
+			public const int appcenter_distribute_dialog_actioned_on_disabled_toast = 2131361835;
+			
+			// aapt resource value: 0x7f0a002c
+			public const int appcenter_distribute_download_progress_number_format = 2131361836;
+			
+			// aapt resource value: 0x7f0a002d
+			public const int appcenter_distribute_downloading_mandatory_update = 2131361837;
+			
+			// aapt resource value: 0x7f0a002e
+			public const int appcenter_distribute_install = 2131361838;
+			
+			// aapt resource value: 0x7f0a002f
+			public const int appcenter_distribute_install_ready_message = 2131361839;
+			
+			// aapt resource value: 0x7f0a0030
+			public const int appcenter_distribute_install_ready_title = 2131361840;
+			
+			// aapt resource value: 0x7f0a0031
+			public const int appcenter_distribute_notification_category = 2131361841;
+			
+			// aapt resource value: 0x7f0a0032
+			public const int appcenter_distribute_unknown_sources_dialog_message = 2131361842;
+			
+			// aapt resource value: 0x7f0a0033
+			public const int appcenter_distribute_unknown_sources_dialog_settings = 2131361843;
+			
+			// aapt resource value: 0x7f0a0034
+			public const int appcenter_distribute_update_dialog_download = 2131361844;
+			
+			// aapt resource value: 0x7f0a0035
+			public const int appcenter_distribute_update_dialog_message_mandatory = 2131361845;
+			
+			// aapt resource value: 0x7f0a0036
+			public const int appcenter_distribute_update_dialog_message_optional = 2131361846;
+			
+			// aapt resource value: 0x7f0a0037
+			public const int appcenter_distribute_update_dialog_postpone = 2131361847;
+			
+			// aapt resource value: 0x7f0a0038
+			public const int appcenter_distribute_update_dialog_title = 2131361848;
+			
+			// aapt resource value: 0x7f0a0039
+			public const int appcenter_distribute_update_dialog_view_release_notes = 2131361849;
+			
+			// aapt resource value: 0x7f0a003a
+			public const int appcenter_distribute_update_failed_dialog_ignore = 2131361850;
+			
+			// aapt resource value: 0x7f0a003b
+			public const int appcenter_distribute_update_failed_dialog_message = 2131361851;
+			
+			// aapt resource value: 0x7f0a003c
+			public const int appcenter_distribute_update_failed_dialog_reinstall = 2131361852;
+			
+			// aapt resource value: 0x7f0a003d
+			public const int appcenter_distribute_update_failed_dialog_title = 2131361853;
 			
 			// aapt resource value: 0x7f0a0022
 			public const int bottom_sheet_behavior = 2131361826;
